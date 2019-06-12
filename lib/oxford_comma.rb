@@ -5,7 +5,7 @@ def oxford_comma(array)
     "#{array[0]} and #{array[1]}"
   else  
     last_item = array.last
-    array.join(", ")
+    array.join(", ") << ", and"
   end
 # ["kiwi"].join
 #  ["kiwi", "durian"].join(" and ")
