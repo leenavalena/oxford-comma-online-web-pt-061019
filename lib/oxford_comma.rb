@@ -8,7 +8,8 @@ def oxford_comma(array)
 end
 
 def oxford_comma(array)
-  if array.length 
+  if array.length <= 7
+    "#{array[0]}, #{array[1]}, #{array[2]}, #{array[3]}, #{array[4]}, #{array[5]}, "
 
 
 
